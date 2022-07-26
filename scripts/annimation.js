@@ -1,4 +1,9 @@
 $(document).ready(() => {
+    // annimation de mla traits vert
+
+    // fin de lanimation
+
+    // annimation fadein
     const ratio = .1;
     const options = {
         root: null,
@@ -15,6 +20,7 @@ $(document).ready(() => {
     }
     const observer = new IntersectionObserver(afficher, options);
     document.querySelectorAll('.animate').forEach(function(r) {
-        observer.observe(r);
-    })
+            observer.observe(r);
+        })
+        // fin annimation fadein
 });
