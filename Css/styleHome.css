@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Panthera';
+    src: url(../Fonts/PantheraRegular-MVZ9J.ttf);
+}
+
+@font-face {
+    font-family: 'BEYNO';
+    src: url(../Fonts/BEYNO.ttf);
+}
+
+@font-face {
+    font-family: 'Cantarell';
+    src: url(../Fonts/Cantarell-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Wakanda';
+    src: url(../Fonts/WakandaForever-Regular.ttf);
+}
+
+.fontImg {
+    background-image: url(../Illustrations/AllPages/arrière_plan.png);
+}
+
+.ReseauSocio {
+    display: flex;
+    flex-direction: column;
+    width: 2%;
+    position: fixed;
+    gap: 5px;
+    padding: 0 3px;
+    border-left: 3px solid #9E91B7;
+    border-right: 3px solid #9E91B7;
+    margin-left: 5%;
+    padding-top: 22%;
+}
+
+.PageMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3% 10% 0% 10%;
+    align-items: center;
+}
+
+.PageMenu div img:hover {
+    filter: brightness(0) saturate(100%) invert(61%) sepia(19%) saturate(431%) hue-rotate(219deg) brightness(95%) contrast(88%);
+}
+
+.MenuNAve {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+}
+
+nav a {
+    font-family: 'BEYNO';
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-family: 'BEYNO';
+    text-decoration: underline;
+}
+
+nav .active {
+    color: #9E91B7;
+    text-decoration: underline;
+}
+
+.ContenuPremierePage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.premierPage {
+    width: 30%;
+    display: flex;
+    gap: 100%;
+    flex-direction: column;
+}
+
+.premierPage *:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.ImgPremierPage {
+    width: 70%;
+}
+
+.ImgPremierPage img {
+    width: 100%;
+}
+
+.premierPage h1 {
+    font-family: 'Panthera';
+    color: #9E91B7;
+    font-size: 2.8rem;
+}
+
+.premierPage h2 {
+    font-family: 'BEYNO';
+    color: #9E91B7;
+    font-size: 1.5rem;
+}
+
+.premierPage p,
+a {
+    color: white;
+    font-family: 'Cantarell';
+    font-size: 0.9rem;
+}
+
+.rangementImg {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+}
+
+.imgEtText {
+    display: flex;
+    flex-direction: row;
+    background-color: #021740;
+    padding-left: 2%;
+    width: 43.5%;
+}
+
+.imgEtTextSans {
+    width: 12%;
+    padding-left: 1%;
+    background-color: #021740;
+}
+
+.texte {
+    padding-top: 5%;
+    padding-left: 2%;
+    width: 60%;
+}
+
+.immage {
+    width: 40%;
+}
+
+.imgEtText img:hover {
+    transform: scale(1.1);
+}
+
+.imgEtTextSans img:hover {
+    transform: scale(1.1);
+}
+
+.immage img {
+    width: auto;
+    height: 220px;
+}
+
+.texte h2 {
+    font-family: 'BEYNO';
+    color: #9E91B7;
+    font-size: 1.5rem;
+    padding-bottom: 3%;
+}
+
+.texte p {
+    padding-top: 5%;
+    color: white;
+    font-family: 'Cantarell';
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+.texte a {
+    padding-top: 5%;
+    color: white;
+    font-family: 'Cantarell';
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+
+/* page3 */
+
+.divisionTextImg {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-left: 13%;
+}
+
+.page3Te {
+    width: 45%;
+}
+
+.page3Img {
+    width: 55%;
+    text-align: center;
+}
+
+.page3Te h2 {
+    font-family: 'BEYNO';
+    color: #9E91B7;
+    font-size: 1rem;
+    padding-top: 5%;
+}
+
+.page3Te p {
+    padding-top: 5%;
+    color: white;
+    font-family: 'Cantarell';
+    font-size: 0.7rem;
+    text-align: justify;
+}
+
+.ImgPantherhome5 {
+    padding: 0% 25%;
+}
+
+.ImgPantherhome5 img {
+    width: 100%;
+}
+
+.ImgPantherhome6 {
+    padding: 20% 25% 0% 25%;
+}
+
+.ImgPantherhome6 img {
+    width: 100%;
+}
+
+.page3Texte {
+    background-color: #F2CEF2;
+    border-radius: 0.8rem;
+    margin: -37% 20% 0% 20%;
+    padding-top: 40%;
+}
+
+.page3Texte h3 {
+    font-family: 'Cantarell';
+    color: #021740;
+    font-size: 1.5rem;
+}
+
+.page3Texte div button {
+    background-color: #3D2DA6;
+    font-family: 'Cantarell';
+    color: white;
+    font-size: 0.5rem;
+    padding: 4% 7% 4% 7%;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.page3Texte p {
+    font-family: 'Cantarell';
+    color: #021740;
+    font-size: 0.7rem;
+    text-align: left;
+    padding-top: 0.5rem;
+}
+
+.page3Texte p span {
+    font-weight: bold;
+}
+
+.alline {
+    display: flex;
+    flex-direction: column;
+    padding: 7% 15% 15% 15%;
+}
+
+.alineButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/* style contacte */
+
+.PrenonContact {
+    background-image: url(../Illustrations/Accueil/Pantherhome7.png);
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center
+}
+
+.backgroundContact {
+    margin-top: 10%;
+    padding: 3% 0% 3% 0%;
+    width: 60%;
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.897), rgba(242, 206, 242, 0.2));
+    border-radius: 10rem;
+    margin-bottom: 5%;
+}
+
+.backgroundContact p {
+    font-family: 'Cantarell';
+    color: #021740;
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+.backgroundContact h1 {
+    font-family: 'Cantarell';
+    color: #021740;
+    font-size: 2.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.backgroundContact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.backgroundContact form input {
+    width: 520px;
+    height: 56px;
+    background: none;
+    border-radius: 38px;
+    padding-left: 1rem;
+    margin-top: 2rem;
+}
+
+.backgroundContact form textarea {
+    height: 200px;
+    width: 520px;
+    background: none;
+    border-radius: 38px;
+    padding-left: 1rem;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+}
+
+.backgroundContact button {
+    width: 174px;
+    height: 54px;
+    border-radius: 38px;
+    background-color: #F2CEF2;
+    margin-top: 30px;
+    border: none;
+}
+
+.backgroundContact button:hover {
+    filter: drop-shadow(0 0 20px #021740);
+}
+
+
+/*  style footer */
+
+footer {
+    background-image: url(../Illustrations/AllPages/back_footer.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 8%;
+}
+
+.cercleMaravel {
+    background-image: url(../Illustrations/AllPages/footer1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 20%;
+}
+
+.cercleMaravel img {
+    padding: 50% 60% 55% 25%;
+}
+
+.cercleMaravel:hover {
+    transform: scale(1.1);
+}
+
+.rangementFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.rangementFooter #enColone {
+    display: flex;
+    flex-direction: column;
+}
+
+#enColone a {
+    margin-bottom: 1rem;
+}
+
+.rangementFooter #enLigne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rangementFooter h2 {
+    font-family: 'Cantarell';
+    color: #F2CEF2;
+    margin-bottom: 3rem;
+}
+
+.footerRetrover p {
+    font-family: 'Cantarell';
+    color: #F2CEF2;
+    font-size: 0.8;
+}
