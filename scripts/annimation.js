@@ -1,6 +1,7 @@
 $(document).ready(() => {
-    // annimation de mla traits vert
 
+    // annimation de la traits vert
+    document.querySelector('.ReseauSocio').classList.add('ReseauSocio-visible');
     // fin de lanimation
 
     // annimation fadein
@@ -23,4 +24,24 @@ $(document).ready(() => {
             observer.observe(r);
         })
         // fin annimation fadein
+
+
+    // annimation on hover
+    // zoom10%
+    $(".zoom10").hover(function() {
+        $(this).css("transform", "scale(1.1)");
+        $(this).css("transition", ".5s cubic-bezier(.5, 0, 0, 1)");
+    }, function() {
+        $(this).css("transform", "scale(1)");
+        $(this).css("transition", ".5s cubic-bezier(.5, 0, 0, 1)");
+    });
+    // zoom de 20%
+    $(".zoom20").hover(function() {
+        $(this).css("transform", "scale(1.2)");
+        $(this).css("transition", ".5s cubic-bezier(.5, 0, 0, 1)");
+    }, function() {
+        $(this).css("transform", "scale(1)");
+        $(this).css("transition", ".5s cubic-bezier(.5, 0, 0, 1)");
+    });
+
 });

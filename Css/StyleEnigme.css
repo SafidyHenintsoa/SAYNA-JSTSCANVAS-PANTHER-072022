@@ -290,5 +290,16 @@ footer {
     border-right: 3px solid #9E91B7;
 }
 
+.ReseauSocio {
+    opacity: 0;
+    transform: translateY(-400px);
+}
+
+.ReseauSocio-visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: 1s cubic-bezier(.5, 0, 0, 1);
+}
+
 
 /* ************ */
