@@ -117,7 +117,6 @@ $(document).ready(() => {
         $(".popup").css({
             display: "block",
         });
-
         e.stopPropagation();
     });
 });
